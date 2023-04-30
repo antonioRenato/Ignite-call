@@ -49,7 +49,5 @@ export default async function handler(
 
   // await prisma.UserTimeInterval.create
 
-  return res.json({
-    session,
-  })
+  return res.status(201).end()
 }
